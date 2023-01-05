@@ -9,7 +9,7 @@
 #include<iostream>
 #include<MMSystem.h>
 #include <stdlib.h>
-
+#include "music.wav"
 
 //(Mohamed osama 19103385) 
 // 3D project "space"
