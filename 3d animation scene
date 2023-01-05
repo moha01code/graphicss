@@ -6,7 +6,8 @@
 #include <GL/glu.h>
 #include <GL/glut.h>
 #include <math.h>
-
+#include<iostream>
+#include<MMSystem.h>
 #include <stdlib.h>
 
 
@@ -330,6 +331,11 @@ void timer(int)
         angle-=360; //to start all over again when 1 rotation is completed
     }
 }
+
+
+// sound
+PlaySound("music.wav", NULL, SND_ASYNC|SND_FILENAME|SND_LOOP);
+
 
 //keyboard function
 void keyboard(unsigned char Key, int k, int b){
