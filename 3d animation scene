@@ -334,7 +334,7 @@ void timer(int)
 
 
 // sound
-PlaySound("music.wav", NULL, SND_ASYNC|SND_FILENAME|SND_LOOP);
+PlaySound("music.wav", NULL, SND_ASYNC|SND_music|SND_LOOP);
 
 
 //keyboard function
