@@ -69,7 +69,7 @@ int main(int argc,char**argv)
     glutInitWindowPosition(200,0);
     glutInitWindowSize(1200,800);
 
-    glutCreateWindow("(18100850,18100173)");
+    glutCreateWindow("(19103385)");
 
     glutDisplayFunc(display);
     glutReshapeFunc(reshape);
